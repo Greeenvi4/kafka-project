@@ -89,7 +89,7 @@ docker exec -it postgres psql -U admin -d billing_db
 
 Шаг 12. Выполните Шаг 8, после чего запустите наш consumer-service с помощью команды в терминале: docker start consumer-service
 
-Шаг 13. Повторите Шаги 6 и 7. Вы увидите, что наш крайний был обработан после запуска нашего consumer-service:
+Шаг 13. Повторите Шаги 6 и 7. Вы увидите, что наш крайний счет был обработан после запуска нашего consumer-service:
 
  id | account_number | amount  |         created_at         |   status   
 ----+----------------+---------+----------------------------+------------
